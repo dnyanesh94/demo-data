@@ -1,0 +1,100 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "projectno": "T6987",
+      "projectname": "Frasers-Williams Sonoma",
+      "projecttype": "GBS",
+      "building": "Williams Sonoma",
+      "asset": "IT-Data Collector",
+      "monitorpoint": "",
+      "measure": "",
+      "alertname": "building project",
+      "lowerthreshold": "",
+      "upperthreshold": "",
+      "frequencytype": "",
+      "active": "",
+      "demand": ""
+    },
+    {
+      "id": 2,
+      "projectno": "T6987",
+      "projectname": "Frasers-Williams ",
+      "projecttype": "GBS",
+      "building": "Williams Sonoma",
+      "asset": "IT-Data Collector",
+      "monitorpoint": "",
+      "measure": "",
+      "alertname": "Williams Sonoma",
+      "lowerthreshold": "22",
+      "upperthreshold": "33",
+      "frequencytype": "Daily",
+      "active": "yes",
+      "demand": ""
+    }
+  ],
+  "alertConfiguration": [
+    {
+      "name": "Williams Sonoma",
+      "lowerthreshold": "2134",
+      "frequencytype": "Weekly",
+      "upperthreshold": "1234",
+      "selectmailtype": "Target Energy Chart Email",
+      "tomailid": "example@gmail.com",
+      "ccmailid": "example@gmail.com",
+      "bccmailid": "example@gmail.com",
+      "nrmailid": "example@gmail.com",
+      "graphicbody": false,
+      "sendonholidays": true,
+      "enablealert": false,
+      "alertId": 2,
+      "id": 1
+    },
+    {
+      "name": "building project",
+      "lowerthreshold": "112",
+      "frequencytype": "Daily",
+      "upperthreshold": "1211",
+      "selectmailtype": "Target Energy Text Email",
+      "tomailid": "ASDAsd",
+      "ccmailid": "asfdas",
+      "bccmailid": "asdfasd",
+      "nrmailid": "asdfasd",
+      "graphicbody": true,
+      "enablealert": "",
+      "alertId": 1,
+      "id": 2
+    },
+    {
+      "name": "building project",
+      "lowerthreshold": "111",
+      "frequencytype": "Weekly",
+      "upperthreshold": "1234",
+      "selectmailtype": "Target Energy Text Email",
+      "tomailid": "11222",
+      "ccmailid": "22",
+      "bccmailid": "11122",
+      "nrmailid": "11222",
+      "graphicbody": false,
+      "sendonholidays": true,
+      "enablealert": "",
+      "alertId": 1,
+      "id": 3
+    },
+    {
+      "name": "Williams Sonoma",
+      "lowerthreshold": "sdf",
+      "frequencytype": "Weekly",
+      "upperthreshold": "sdfsdf",
+      "selectmailtype": "Target Energy Text Email",
+      "tomailid": "dsfgsd",
+      "ccmailid": "sdfgsdf",
+      "bccmailid": "sdfg",
+      "nrmailid": "sdfgsdfg",
+      "sendonholidays": true,
+      "enablealert": "",
+      "alertId": 2,
+      "id": 4
+    }
+  ]
+}
